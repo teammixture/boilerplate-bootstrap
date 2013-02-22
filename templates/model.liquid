@@ -1,0 +1,14 @@
+{% block title %}Model Example : Mixture + Bootstrap{% endblock %}
+{% block content %}
+	<div class="hero-unit">
+		<h1>{{ title }}</h1>
+		<h2>A basic example.</h2>
+		<p>List populated from the model:</p>
+		<ol>
+			{% for person in people %}
+  				<li><a href="http://twitter.com/{{ person.twitter }}">{{ person.name }}</a></li>
+			{% endfor %}
+		</ol>
+		<p>Todays date: {{ 'now' | date: "%d %B %Y" }}. Model created: {{ modelDate | date: "%d %B %Y" }}</p>
+	</div>
+{% endblock %}

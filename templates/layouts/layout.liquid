@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>{% block title %}Mixture + Bootstrap{% endblock %}</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        {{ "bootstrap.css" | asset_url | stylesheet_tag }}
+        <style>
+            body {
+                padding-top: 60px; /* 60px to make the container go all the way to the bottom of the topbar */
+            }
+        </style>
+        {{ "responsive.css" | asset_url | stylesheet_tag }}
+        <!-- TODO: Complete this project :) -->
+    </head>
+    <body>
+        {% include "navigation" %}
+        <div class="container">
+            {% block content %}{% endblock %}
+        </div>
+        <script src="//code.jquery.com/jquery.min.js"></script>
+        {{ "bootstrap.js" | asset_url | script_tag }}
+    </body>
+</html>

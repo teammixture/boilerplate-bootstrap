@@ -1,0 +1,17 @@
+{
+  "debug": false,
+  "lintScripts": false,
+  "preprocessorScriptOutput": "public/scripts",
+  "preprocessorStyleOutput": "public/styles",
+  "projectName": "Bootstrap",
+  "projectDescription": "Sleek, intuitive, and powerful front-end framework for faster and easier web development.",
+  "publishedId": null,
+  "publishedAccount": null,
+  "serverHostName": null,
+  "serverPort": null,
+  "templateDirectory": "templates",
+  "templateDefaultLayout": "layout",
+  "templateDefaultPage": "index",
+  "type": "mixture",
+  "useCompass": true
+}
