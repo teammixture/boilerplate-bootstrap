@@ -13,5 +13,5 @@
   "templateDefaultLayout": "layout",
   "templateDefaultPage": "index",
   "type": "mixture",
-  "useCompass": true
+  "useCompass": false
 }
