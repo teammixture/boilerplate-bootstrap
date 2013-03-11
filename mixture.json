@@ -1,6 +1,7 @@
 {
   "debug": false,
   "lintScripts": false,
+  "preprocessorLocations": "public",
   "preprocessorScriptOutput": "public/scripts",
   "preprocessorStyleOutput": "public/styles",
   "projectName": "Bootstrap",
@@ -12,5 +13,6 @@
   "templateDefaultLayout": "layout",
   "templateDefaultPage": "index",
   "type": "mixture",
-  "useCompass": false
+  "useCompass": false,
+  "simpleModePartnerServer": null
 }
