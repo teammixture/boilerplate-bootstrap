@@ -7,7 +7,7 @@
   "projectName": "Bootstrap",
   "projectDescription": "Sleek, intuitive, and powerful front-end framework for faster and easier web development.",
   "publishedId": null,
-  "serverHostName": null,
+  "serverHostname": null,
   "serverPort": null,
   "templateDirectory": "templates",
   "templateDefaultLayout": "layout",
