@@ -14,5 +14,7 @@
   "templateDefaultPage": "index",
   "type": "mixture",
   "useCompass": false,
-  "simpleModePartnerServer": null
+  "simpleModePartnerServer": null,
+  "modelSource": null,
+  "domain": null
 }
